@@ -1,0 +1,14 @@
+﻿.ui-dialog .ui-dialog-titlebar-close
+{
+right:auto !important;
+left: 10px !important;
+}
+ /*#scrollUp{right:52px;left:auto;}*/
+ #scrollUp{right:20px;left:auto;}
+ .CssCatProductAdjusted_SocialNetworks a.clsProductSocial_a{float:right;}
+ /*.clsBG_Fullwidth{width:100vw; margin-left:auto;margin-right:calc(-1 * ((100vw - 100%) / 2));} remove with new 19-jan-2017*/
+.clsBG_Fullwidth{width: calc(100vw - 21px);margin-left:auto;margin-right: calc(-1 * ((100vw - 21px - 100%) / 2));
+ #PopupModal #PopupModal_CloseBtn{right:-14px; left:auto;}
+@media  (max-width: 768px) {
+    #PopupModal #PopupModal_CloseBtn{right:0px; left:auto;}
+}
